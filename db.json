@@ -1,22 +1,10 @@
 {
   "products": [
     {
-      "id": 1,
       "name": "Iphone",
-      "price": 123,
-      "desc": "ok"
-    },
-    {
-      "id": 12,
-      "name": "Iphone",
-      "price": 123,
-      "desc": "ok"
-    },
-    {
-      "id": 13,
-      "name": "Iphone",
-      "price": 123,
-      "desc": "ok"
+      "price": 12312,
+      "desc": "ok",
+      "id": 1
     }
   ],
   "user": []
