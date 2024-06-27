@@ -47,10 +47,11 @@ const EditProduct = () => {
     return (
         <div>
             <h1>Edit Product</h1>
-            <form onSubmit={handleSave}>
+            <form className='container' onSubmit={handleSave}>
                 <div>
                     <label>Name</label>
                     <input
+                        className='form-control'
                         type="text"
                         value={name}
                         onChange={e => setName(e.target.value)}
@@ -59,6 +60,7 @@ const EditProduct = () => {
                 <div>
                     <label>Price</label>
                     <input
+                        className='form-control'
                         type="number"
                         value={price}
                         onChange={e => setPrice(parseFloat(e.target.value))}
@@ -67,12 +69,13 @@ const EditProduct = () => {
                 <div>
                     <label>Description</label>
                     <input
+                        className='form-control'
                         type="text"
                         value={desc}
                         onChange={e => setDesc(e.target.value)}
                     />
                 </div>
-                <button type="submit">Save</button>
+                <button className='btn btn-primary mt-3' type="submit">Save</button>
             </form>
         </div>
     );

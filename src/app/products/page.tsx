@@ -44,7 +44,7 @@ export default function Product() {
                             <td>{p.desc}</td>
                             <td>
                                 <button className="btn btn-primary mx-3">
-                                    <Link href={`/products/editpro/${p.id}`}>
+                                    <Link style={{textDecoration: 'none'}} className="text-white" href={`/products/editpro/${p.id}`}>
                                         Sửa
                                     </Link>
                                 </button>
